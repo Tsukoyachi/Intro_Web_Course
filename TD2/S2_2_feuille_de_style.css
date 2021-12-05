@@ -1,0 +1,106 @@
+/*Axel Delille PeiP2 G4*/
+body {
+    max-width: 1024px;
+    min-width: 800px;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}   
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-top: solid 2px lightblue;
+    border-bottom: solid 2px lightblue;
+}
+#intro {
+    text-align: justify;
+    margin: auto;
+    width:60%;
+}
+
+/* ======= règles exercice 2 ======= */
+
+nav>ul>li>ul {
+    display: none;
+}
+
+nav>ul {
+    width: 462px;
+    margin:auto;
+}
+
+nav>ul>li {
+    float: left;
+    list-style-type: none;
+    border: 2px solid blue;
+    margin-top: 50px;
+    width: 150px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+nav>ul>li>a:hover {
+    background-color: lightpink;
+}
+
+nav>ul>li>a {
+    display:block;
+    text-decoration: none;
+    width:150px;
+}
+
+.separator {
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/* ======= règles exercice 3 ======= */
+
+nav>ul>li:hover>ul {
+    display:block;
+    list-style-type: none;
+}
+nav>ul>li>ul {
+    padding-left: 0px;
+    position: absolute;
+}
+
+nav>ul>li>ul>li {
+    width: 150px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+    margin: -2px;
+}
+nav>ul>li>ul>li>a {
+    text-decoration: none;
+}
+
+nav>ul>li>ul>li:hover{
+    background-color: lightpink;
+}
+
+
+/* ======= règles exercice 4 ======= */
+
+section {
+    float:left;
+    width: 75%;
+}
+#twitterfeed{
+    margin-left: 76%;
+    height:500px;
+    border-left: 1px solid red;
+}
+
+/* ======= règles exercice 5 ======= */
+
+.cols {
+    float: left;
+    width: 31%;
+    margin: 0% 1% 0% 1%;
+}
+#suite {
+    clear:both;
+}

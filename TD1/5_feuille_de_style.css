@@ -1,0 +1,21 @@
+/*Axel Delille PeiP2 G4*/
+body {
+    max-width: 1024px;
+    min-width: 800px;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}   
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-top: solid 2px lightblue;
+    border-bottom: solid 2px lightblue;
+}
+#intro {
+    text-align: justify;
+    margin: auto;
+    width:60%;
+}

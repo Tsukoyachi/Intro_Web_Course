@@ -1,0 +1,51 @@
+/*Axel Delille PeiP2 G4*/
+h1 {
+    background-color: black;
+    color: red;
+}
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+p::first-letter {
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.acronym {
+    color: greenyellow;
+    font-variant: small-caps;
+}
+p>strong {
+    font-weight: normal;
+    font-style: italic;
+}
+#mot_a_decorer {
+    text-decoration: underline;
+    color: blue;
+}
+
+p em {
+    color: orange;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#bloc_indirect em {
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+}
+ol>li:first-child {
+    color: magenta;
+}
+ol>li:first-child>ul {
+    color: black;
+}
+ol>li:last-child>ul>li:last-child {
+    color: purple;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
