@@ -1,0 +1,59 @@
+/*Axel Delille PeiP2 G4*/
+body {
+    min-width: auto;
+}
+section{
+    float: none;
+    width: auto;
+}
+
+#twitterfeed {
+    margin-left: 0px;
+    width: auto;
+    border-left: 0px;
+    border-top : solid 1px red;
+}
+
+#menub {
+    width:35px;
+}
+
+#menub>div {
+    width:35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+}
+
+nav>ul {
+    display:none;
+}
+
+nav:hover > #menub {
+    display: none;
+}
+
+nav:hover>ul {
+    display:block;
+}
+
+nav > ul {
+    width: auto;
+}
+nav>ul>li {
+    float:none;
+    width: 150px;
+    height: 18px;
+}
+
+nav>ul>li:hover>ul {
+    position: relative;
+    top:-42px;
+    left:150px;
+    height:18px;
+    width: 150px;
+}
+
+nav>ul>li>ul>li {
+    margin-right: -4px;
+}
