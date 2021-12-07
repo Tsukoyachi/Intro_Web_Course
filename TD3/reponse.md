@@ -45,6 +45,6 @@
     </blockquote>
     <li>&lt;link rel=«stylesheet» type=«text/css» media=«screen and (max-width : 600px)» href=«smartphone.css»&gt;</li>
     <li>En dessous de 600px, le twitterfeed repasse en dessous de la colonne principale et le menu est caché un bouton apparait afin de le remplacer en prenant moins de place.</li>
-    <li><div id=souligner><strong>Bonus : </strong></div>si le sous menu était sur la case 3, pour le position relative, le top serait à -20px et non à -42px parce que l'on doit le descendre de 18px pour descendre d'une case et encore de 4px à cause de la double bordure.</li>
+    <li><strong>Bonus : </strong><br>Si le sous menu était sur la case 3, pour le position relative, le top serait à -20px et non à -42px parce que l'on doit le descendre de 18px pour descendre d'une case et encore de 4px à cause de la double bordure.</li>
   </ol>
 </body>
